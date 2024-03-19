@@ -1,17 +1,21 @@
-# No-NPM-Three.js-Base-Scene
+### Using Three.js in Your Project
 
-## How to find the addons
+1. **Import the library:**
+   
+   ```javascript
+   import * as THREE from "three";
+   ```
 
-Import base three.js
+   You can find the newest version [here](https://unpkg.com/browse/three@0.162.0/).
 
-* import * as THREE from "three";
-* Newest version can be found here https://unpkg.com/browse/three@0.162.0/
+2. **Select your desired addons from the package:**
+   
+   Browse through the available addons [here](https://unpkg.com/browse/three@0.162.0/examples/jsm/l). 
 
-Go to:
-* https://unpkg.com/browse/three@0.162.0/examples/jsm/l
-* Choose your addons in the package here
+   Addons are located under "three/addons/". You can directly import them like so:
 
-* "three/addons/": "https://unpkg.com/three@0.162.0/examples/jsm/"
+   ```javascript
+   import { OBJLoader } from "three/addons/loaders/OBJLoader";
+   ```
 
-* You can later them import Like this:
-import { OBJLoader } from "three/addons/loaders/OBJLoader.js";
+3. **Happy coding with Three.js!** 🚀
